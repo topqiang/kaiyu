@@ -1,0 +1,190 @@
+html{
+	width: 100%;
+	overflow-x:hidden;
+	overflow-y: scroll;
+}
+.conwidth{
+	max-width: 1000px;
+	margin: 0px auto; 
+}
+.pad20{
+	padding: 20px;
+}
+.pad20-0{
+	padding: 20px 0px;
+}
+.ih20{
+	line-height: 30px;
+}
+.text-yel{
+	color: rgb(255, 166, 10);
+}
+.bgccc{
+	background: rgb(225, 225, 225);
+}
+.texcen{
+	text-align: center;
+}
+.colzi{
+	color: rgb(255, 0, 129);
+}
+.colccc{
+	color: #999;
+}
+.fs20{
+	font-size: 30px;
+}
+.icon-tel{
+	padding-left: 20px;
+	background: url('../img/telyel.png') no-repeat 0px center;
+	background-size: 16px 16px; 
+}
+.mat20{
+	margin-top: 20px;
+}
+.imgbag img{
+	width: 100%;
+	margin-bottom: 18px;
+	display: block;
+}
+.padl-0{
+	padding-left: 0px;
+}
+.padr-0{
+	padding-right: 0px;
+}
+.companylist img{
+	height: 80px;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.bg000{
+	background: rgb(0, 0, 0);
+}
+.bg42{
+	background: rgb(42, 42, 42);
+}
+.botlist{
+	overflow: hidden;
+}
+.borreab{
+	display: inline-block;
+	position: relative;
+}
+.borreab:before{
+	top: 0px;
+}
+.bor1cc{
+	border: 1px solid #ccc;
+}
+.borreab:after{
+	bottom: 0px;
+}
+.ma20-0{
+	margin: 20px 0px;
+}
+.fs18{
+	font-size: 18px;
+}
+.bora10{
+	border-radius: 10px;
+}
+.colred{
+	color: rgb(255, 0, 0);
+}
+.ih50{
+	line-height: 50px;
+}
+.pad0-10{
+	padding: 0px 10px;
+}
+.mar10{
+	margin: 10px;
+}
+.borreab:before,.borreab:after{
+	position: absolute;
+	content: '';
+	display: block;
+	height: 2px;
+	background: #999;
+	left: 50px;
+	right: 50px;
+}
+.navbar-nav > li > a:hover{
+	color: rgb(0, 173, 243) !important;
+}
+.navbar-nav > li.on >a{
+	background: rgb(0, 173, 243) !important;
+	color: #fff;
+}
+.fl{
+	float: left;
+}
+.botlist li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+.texovh{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+}
+.botlist li a{
+	color: #fff;
+}
+.fr{
+	float: right;
+}
+.new-item{
+	padding-left: 30px;
+	position: relative;
+}
+.new-item:before{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(255, 0, 0);
+	position: absolute;
+	top: 50%;
+	margin-top: -5px;
+	left: 0px;
+}
+.bgccc{
+	background: #eee;
+}
+.borb1cc{
+	border-bottom: 1px solid #ccc; 
+}
+.newobj{
+	height: 90px;
+	padding:15px 0px;
+	border-bottom: 2px dotted #ccc;
+}
+.newobj .h{
+	line-height: 30px;
+	font-size: 16px;
+}
+.newinfo p{
+	color: #ccc;
+	height: 30px;
+	overflow:hidden;
+	line-height: 15px;
+}
+.newinfo{
+	height: 60px;
+}
+.newobjtime{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.newobjtime .day{
+	line-height: 40px;
+	font-size: 30px;
+}
+.newobjtime .date{
+	line-height: 20px;
+}
