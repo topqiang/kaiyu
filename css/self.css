@@ -19,6 +19,9 @@ html{
 .text-yel{
 	color: rgb(255, 166, 10);
 }
+.disib{
+	display: inline-block;
+}
 .bgccc{
 	background: rgb(225, 225, 225);
 }
@@ -27,6 +30,9 @@ html{
 }
 .colzi{
 	color: rgb(255, 0, 129);
+}
+.colblu{
+	color: rgb(0, 173, 243);
 }
 .colccc{
 	color: #999;
@@ -95,6 +101,12 @@ html{
 .ih50{
 	line-height: 50px;
 }
+.ih40{
+	line-height: 40px;
+}
+.mat20{
+	margin-top: 20px;
+}
 .pad0-10{
 	padding: 0px 10px;
 }
@@ -116,6 +128,10 @@ html{
 .navbar-nav > li.on >a{
 	background: rgb(0, 173, 243) !important;
 	color: #fff;
+}
+.hzimg img{
+	max-width: 100%;
+	height: 90px;
 }
 .fl{
 	float: left;
@@ -187,4 +203,88 @@ html{
 }
 .newobjtime .date{
 	line-height: 20px;
+}
+.lefsan >div{
+	padding-left: 12px;
+	position: relative;
+}
+.lefsan >div:before{
+	position: absolute;
+	content: '';
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	border: 6px solid transparent;
+	border-left: 6px solid rgb(255, 117, 0);
+}
+.borl1c{
+	border-left: 1px solid #ccc;
+}
+.botblu{
+	position: relative;
+}
+.botblu:after{
+	position: absolute;
+	content: '';
+	display: inline-block;
+	height: 3px;
+	width: 50px;
+	bottom: -3px;
+	left: 50%;
+	margin-left: -25px;
+	background: rgb(0, 173, 243);
+}
+.top_navbar{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 50px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
+.icon-de{
+	background: url('../img/icon-de.png') no-repeat 0px center;
+}
+.on .icon-de{
+	background: url('../img/icon-deon.png') no-repeat 0px center;
+}
+.icon-fa{
+	background: url('../img/icon-fa.png') no-repeat 0px center;
+	
+}
+.icon-yi{
+	background: url('../img/icon-yi.png') no-repeat 0px center;
+	
+}
+.icon-xi{
+	background: url('../img/icon-xi.png') no-repeat 0px center;
+	
+}
+.poab{
+	position: absolute;
+}
+.pore{
+	position: relative;
+}
+.top_navbar .icon{
+	display: inline-block;
+	background-size: 20px 18px;
+	margin-right: 5px;
+	padding-left: 30px;
+}
+.top_navbar .on{
+	background: rgb(225, 225, 225);
+	color: #999;
+}
+.kcimg{
+	width: 120px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+.kcimg img{
+	width: 100%;
+	height: 100%;
 }
