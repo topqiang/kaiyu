@@ -13,6 +13,9 @@ html{
 .pad20-0{
 	padding: 20px 0px;
 }
+.fs10{
+	font-size: 10px;
+}
 .ih20{
 	line-height: 30px;
 }
@@ -287,4 +290,68 @@ html{
 .kcimg img{
 	width: 100%;
 	height: 100%;
+}
+.kcimg .poab{
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%,0);
+	padding-top: 40px;
+	background-size: 30px 30px; 
+	background-repeat: no-repeat;
+	color: #fff;
+	background-position: center 0px;
+	cursor: pointer;
+}
+.marb20{
+	margin-bottom: 20px;
+}
+.icon-biao{
+	background-image: url('../img/icon-biao.png');
+}
+.icon-biao:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-biaoon.png');
+}
+.icon-ming{
+	background-image: url('../img/icon-ming.png');
+}
+.icon-ming:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-mingon.png');
+}
+.icon-deng{
+	background-image: url('../img/icon-deng.png');
+}
+.yybtn{
+	background: rgb(82, 91, 106);
+	color: #fff;
+	padding: 5px 10px;
+}
+.fs18{
+	font-size: 18px;
+}
+.icon-deng:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-dengon.png');
+}
+.icon-xing{
+	background-image: url('../img/icon-xing.png');
+}
+.icon-xing:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-xingon.png');
+}
+.icon-ge{
+	background-image: url('../img/icon-ge.png');
+}
+.icon-ge:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-geon.png');
+}
+.icon-qi{
+	background-image: url('../img/icon-qi.png');
+}
+.icon-qi:hover{
+	color: rgb(0, 173, 243);
+	background-image: url('../img/icon-qion.png');
 }
