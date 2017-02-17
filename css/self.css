@@ -222,6 +222,15 @@ html{
 	border: 6px solid transparent;
 	border-left: 6px solid rgb(255, 117, 0);
 }
+.colwhit{
+	color: #fff;
+}
+.bgwhit{
+	background: #fff;
+}
+.bgzis{
+	background: rgb(255, 0, 133);
+}
 .borl1c{
 	border-left: 1px solid #ccc;
 }
@@ -248,6 +257,9 @@ html{
 	color: #fff;
 	background: rgba(0, 0, 0, 0.5);
 }
+.top_navbar .row div{
+	cursor: pointer;
+}
 .icon-de{
 	background: url('../img/icon-de.png') no-repeat 0px center;
 }
@@ -258,13 +270,22 @@ html{
 	background: url('../img/icon-fa.png') no-repeat 0px center;
 	
 }
+.on .icon-fa{
+	background: url('../img/icon-faon.png') no-repeat 0px center;
+}
 .icon-yi{
 	background: url('../img/icon-yi.png') no-repeat 0px center;
 	
 }
+.on .icon-yi{
+	background: url('../img/icon-yion.png') no-repeat 0px center;
+}
 .icon-xi{
 	background: url('../img/icon-xi.png') no-repeat 0px center;
 	
+}
+.on .icon-xi{
+	background: url('../img/icon-xion.png') no-repeat 0px center;
 }
 .poab{
 	position: absolute;
