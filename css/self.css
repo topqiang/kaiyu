@@ -411,3 +411,16 @@ html{
 	left: 50%;
 	margin-left: -250px;
 }
+.radibtn{
+	height: 20px;
+	border-radius: 10px;
+	padding: 0px 20px;
+	display: inline-block;
+	color: #fff;
+}
+.bgblue{
+	background: rgb(0, 179, 225);
+}
+.bggreen{
+	background: rgb(0, 208, 152);
+}
