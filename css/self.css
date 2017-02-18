@@ -95,6 +95,9 @@ html{
 .fs18{
 	font-size: 18px;
 }
+.mar40{
+	margin-right: 40px;
+}
 .bora10{
 	border-radius: 10px;
 }
@@ -287,6 +290,14 @@ html{
 .on .icon-xi{
 	background: url('../img/icon-xion.png') no-repeat 0px center;
 }
+.colzis{
+	color: rgb(209, 0, 78);
+}
+.borzis{
+	border: 1px solid rgb(209, 0, 78);
+	padding: 5px;
+	margin-right: 20px;
+}
 .poab{
 	position: absolute;
 }
@@ -375,4 +386,17 @@ html{
 .icon-qi:hover{
 	color: rgb(0, 173, 243);
 	background-image: url('../img/icon-qion.png');
+}
+.localbtn{
+	padding: 5px 20px;
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+.feicon{
+	width: 500px;
+	color: #fff;
+	top: 100px;
+	left: 50%;
+	margin-left: -250px;
 }
