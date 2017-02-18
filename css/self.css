@@ -130,7 +130,7 @@ html{
 }
 .navbar-nav > li.on >a{
 	background: rgb(0, 173, 243) !important;
-	color: #fff;
+	color: #fff !important;
 }
 .hzimg img{
 	max-width: 100%;
