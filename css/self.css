@@ -40,6 +40,9 @@ html{
 .colblu{
 	color: rgb(0, 173, 243);
 }
+.pad0-20{
+	padding: 0px 20px;
+}
 .colccc{
 	color: #999;
 }
