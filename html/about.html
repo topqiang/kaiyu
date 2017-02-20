@@ -63,9 +63,38 @@
 		</div>
 	</div>
 
-	<div class="">
-		<div class="conwidth pad20">
-			
+	<div class="conwidth pad20 hidden-xs">
+		<div class="timeload">
+			<span class="timeitem">2006</span>
+			<span class="timeitem">2007</span>
+			<span class="timeitem on">2008</span>
+			<span class="timeitem">2009</span>
+			<span class="timeitem">2010</span>
+			<span class="timeitem">2011</span>
+			<span class="timeitem">2012</span>
+			<span class="timeitem">2013</span>
+			<span class="timeitem">2014</span>
+		</div>
+		<div class="pore mat20 pad20">
+			<span class="poab checkbtn btnleft">
+			</span>
+			<div class="row pad20 disvcen">
+				<div class="col-sm-6">
+					<div class="row disvcen">
+						<div class="col-sm-8 imgbag">
+							<img src="../img/timeimg.png">
+						</div>
+						<div class="col-sm-4 fs20">
+							2010年
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 textlef">
+					<p>SEC与德国帕德博恩大学、杜伊斯堡-埃森大学、德累斯顿工业大学等多所院校国际预科学院建立语言培训合作关系。</p>
+				</div>
+			</div>
+			<span class="poab checkbtn btnright">
+			</span>
 		</div>
 	</div>
 	
@@ -87,6 +116,18 @@
 				<div class="col-md-2 col-sm-4 col-xs-6">奥迪</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="aboutbot pore">
+		<div class="bgarea row colwhit">
+			<div class="col-sm-6 col-xs-12 pad0-20">
+				<span class="">免费试听课程？请立即申请</span>
+			</div>
+			<div class="col-sm-6 col-xs-12 pad0-20">
+				<span class="bgyel pad5-20">预约免费课程咨询</span>
+			</div>
+		</div>
+		<img src="../img/aboutbot.png"/>
 	</div>
 
 	<footer class="bg42 ih20">
@@ -125,6 +166,9 @@
 <script type="text/javascript">
 	$(".gotop").on('click',function(){
 		$("html,body").animate({"scrollTop":"0px"},200);
+	});
+	$(".timeitem").on('click',function(){
+		$(this).addClass("on").siblings().removeClass("on");
 	});
 </script>
 </html>
