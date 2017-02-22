@@ -559,3 +559,72 @@ html{
 	top: 5px;
 	left: 3px;
 }
+
+
+
+
+.jx1{
+	position:relative;
+}
+.lunbo1-jx{
+	width:1000px;
+	overflow:hidden;
+}
+.lunbo1 ul{
+	transition:transform 0.8s ease;
+}
+.lunbo2 ul{
+	transition:transform 0.8s ease;
+}
+.lunbo1-jx ul{
+	width:5800px;
+	white-space:nowrap;
+	height:200px;
+	padding:0;	
+}
+.lunbo1 li{
+	float:left;
+}
+.lunbo2 li{
+	float:right;
+}
+.lunbo1-jx li{	
+	margin-right:40px;
+	width:220px;
+	overflow:hidden;
+	list-style-type:none;
+	display:inline-block;
+	margin:20px 40px 20px 0px;
+}
+.lunbo1-jx li img{
+	width:100%;
+}
+.lunbo1-jx li p{
+	margin:10px 0px 0px 0px;
+	font-family:"微软雅黑";
+}
+.lunbo1-jx li p:nth-child(2){
+	font-size:16px;
+	font-weight:bold;	
+}
+.lunbo1-jx li p:nth-child(3){
+	font-family:"微软雅黑";
+	font-size:14px;
+	color: rgb(209, 0, 78);
+}
+.jx-pre,.jx-next{
+	position:absolute;
+	top:70px;
+	width:50px;
+	height:50px;
+}
+.jx-pre{
+	background:url("../img/iconleft.png")0 0 no-repeat;
+	background-size:50px 50px;
+	left:-70px;
+}
+.jx-next{
+	background:url("../img/iconright.png")0 0 no-repeat;
+	background-size:50px 50px;
+	right:-70px;
+}
