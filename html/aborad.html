@@ -59,7 +59,7 @@
 					咖啡甜点原版书吧，学习休闲两不误；一起录制情景短剧，大家都来做网红；小班讨论学习模式，你不再是路人甲；会员户外别墅轰趴，快意青春嗨翻天。
 				</div>
 				<div class="mat20">
-					<span class="localbtn mar20 mar40">立即申请</span><span class="localbtn ">预定资格</span>
+					<span class="localbtn mar20 mar40" id="clk">立即申请</span><span class="localbtn ">预定资格</span>
 				</div>
 			</div>
 		</div>
@@ -345,6 +345,85 @@
 	    </ul>
 	    </div>
 	</footer>
+
+	<div class="box-jx">
+		<div class="box-top">
+			<p>预约免费试听</p>
+			<div>
+				<span>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+					<i></i>
+				</span>
+				<span>
+					<i></i>
+				</span>
+			</div>
+		</div>
+		<div class="box-bom">
+			<div>
+				<span>姓名：</span>
+				<input type="text" />
+			</div>
+			<div>
+				<span>联系方式：</span>
+				<input type="text" />
+			</div>
+			<div>
+				<span>QQ号：</span>
+				<input type="text" />
+			</div>
+			<a href="#">马上预约</a>
+		</div>
+		<span class="box-close" id="close"></span>
+	</div>
+
 </body>
 <script src="//cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -424,5 +503,13 @@ $(function(){
 	
 	
 })	
+
+	$("#clk").click(function(){
+		$(".box-jx").fadeIn(200);
+	})
+	$("#close").click(function(){
+		$(".box-jx").fadeOut(200);
+	})
+//弹框
 </script>
 </html>
